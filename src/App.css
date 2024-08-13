@@ -1,0 +1,19 @@
+.content {
+  display: flex;
+  /* height: 100vh; Die gesamte Höhe des Viewports */
+}
+
+.left {
+  flex: 0 0 250px; /* Fixe Breite der Sidebar */
+  background-color: #333; /* Hintergrundfarbe der Sidebar */
+  color: white; /* Textfarbe in der Sidebar */
+  width: 250px;
+  position: fixed;
+}
+
+.right {
+  flex: 1; /* Nimmt den restlichen Platz ein */
+  padding: 20px; /* Optionales Padding für den Inhalt */
+  background-color: #f4f4f4; /* Hintergrundfarbe des Inhalts */
+  margin-left: 250px;
+}

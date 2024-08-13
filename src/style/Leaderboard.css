@@ -1,0 +1,11 @@
+.leaderboard {
+  min-width: 1000px;
+  overflow-x: scroll;
+}
+
+.leaderboardPos {
+  color: red;
+}
+
+.leaderboardImg {
+}

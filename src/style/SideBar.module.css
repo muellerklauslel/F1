@@ -1,0 +1,18 @@
+.sideBar {
+  /* width: 15%; */
+  max-width: 300px;
+  min-width: 120px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+}
+
+.sideBar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.list-group .customColors {
+  background-color: #15151f;
+}
